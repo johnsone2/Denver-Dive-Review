@@ -24,5 +24,12 @@ namespace Denver_Dive_Review.Controllers
 
             return View();
         }
+
+        public ActionResult Team()
+        {
+            ViewBag.Message = "Our dope-ass team.";
+
+            return View();
+        }
     }
 }
