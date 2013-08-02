@@ -1,0 +1,5 @@
+*/Properties/*
+*.pubxml
+*/bin/*
+*/obj/*
+packages/*
