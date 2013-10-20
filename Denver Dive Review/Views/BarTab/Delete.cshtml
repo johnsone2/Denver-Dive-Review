@@ -1,0 +1,33 @@
+﻿@model Denver_Dive_Review.Models.BarTabModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>BarTabModel</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.BarName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.BarName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TabAmount)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TabAmount)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}
