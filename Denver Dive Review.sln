@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denver Dive Review", "Denve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denver Dive Review.Tests", "Denver Dive Review.Tests\Denver Dive Review.Tests.csproj", "{71FACBE1-D7BF-4AE1-B8C6-E0916DDE62E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YelpApiWrapper", "YelpApiWrapper\YelpApiWrapper.csproj", "{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs.For.YelpApi", "Specs.For.YelpApi\Specs.For.YelpApi.csproj", "{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{71FACBE1-D7BF-4AE1-B8C6-E0916DDE62E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71FACBE1-D7BF-4AE1-B8C6-E0916DDE62E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71FACBE1-D7BF-4AE1-B8C6-E0916DDE62E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
