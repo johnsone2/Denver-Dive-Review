@@ -13,6 +13,7 @@ namespace YelpApiWrapper
 
         static YelpApi()
         {
+            // Todo: Move to App.Config.
             Options = new Options
             {
                 ConsumerKey = "u9vn-EsSLZ2EtEARoJSplA",
