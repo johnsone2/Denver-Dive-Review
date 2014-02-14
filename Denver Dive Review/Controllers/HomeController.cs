@@ -1,4 +1,6 @@
-﻿using System.Web.Mvc;
+﻿using System.Linq;
+using System.Web.Mvc;
+using BarTabService;
 
 namespace Denver_Dive_Review.Controllers
 {
@@ -7,8 +9,12 @@ namespace Denver_Dive_Review.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            var tabController = new BarTabFileService();
+            var allTabs = tabController.Read();
 
-            return View();
+            var tabTotal = allTabs.Aggregate(0d, (runningTotal, tab) => runningTotal + tab.TabAmount);
+
+            return View(tabTotal);
         }
 
         public ActionResult About()

@@ -2,7 +2,9 @@
     ViewBag.Title = "Denver Dive Review";
     ViewBag.Message = "Reviewing Dive Bars since... wait, when was it?";
 }
+@model double
 @section featured {
+    
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
@@ -11,10 +13,10 @@
             </hgroup>
             <p>
                 We drink a lot. Probably too much. So we asked ourselves:
-                what would it take to bring some legitmacy to our drinking habit? And then we: 
                 what would it take to bring some legitmacy to our drinking habit? And then we said: 
                 let's make a website about drinking. Legitmate as fuck.
             </p>
+            <h3>Our current bar-tab: $@Model</h3>
         </div>
     </section>
 }
