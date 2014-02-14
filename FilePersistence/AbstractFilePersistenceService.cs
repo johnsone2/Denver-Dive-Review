@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace FilePersistence
 {
-    public abstract class AbstractFilePersistenceService<T> : IPersistenceService<T>
+    public abstract class AbstractFilePersistenceService<T> : IPersistenceService<T> where T : class
     {
         public abstract string FilePath { get; }
 
@@ -30,6 +30,11 @@ namespace FilePersistence
 
         public int Create(T item)
         {
+            if (item == null)
+            {
+                throw new NullReferenceException("Cannot save a null item, dummy.");
+            }
+
             if (!File.Exists(FilePath))
             {
                 File.Create(FilePath);
