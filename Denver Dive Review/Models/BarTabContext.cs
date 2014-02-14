@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using Domain;
 
 namespace Denver_Dive_Review.Models
 {
@@ -17,6 +18,6 @@ namespace Denver_Dive_Review.Models
         {
         }
 
-        public DbSet<BarTabModel> BarTabModels { get; set; }
+        public DbSet<BarTab> BarTabModels { get; set; }
     }
 }

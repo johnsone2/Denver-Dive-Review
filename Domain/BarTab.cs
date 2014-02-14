@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Denver_Dive_Review.Models
+namespace Domain
 {
-    public class BarTabModel
+    public class BarTab
     {
         [Key]
         public int Id { get; set; }
@@ -12,7 +12,7 @@ namespace Denver_Dive_Review.Models
         [Required]
         [Display(Name = "Bar name")]
         public string BarName { get; set; }
-        
+
         [Required]
         [Display(Name = "Bar name")]
         public double TabAmount { get; set; }
