@@ -6,7 +6,7 @@ namespace BarTabService
 {
     public class BarTabFileService : AbstractFilePersistenceService<BarTab>
     {
-        private static readonly string _DevBarTabsFilePath = @"./bartabs.filedb";
+        private static readonly string _DevBarTabsFilePath = @"C:\ddr\bartabs.filedb";
 
         private string _filePath;
         public BarTabFileService()
