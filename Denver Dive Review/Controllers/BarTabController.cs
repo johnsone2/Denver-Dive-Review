@@ -66,9 +66,26 @@ namespace Denver_Dive_Review.Controllers
                 TabAmount = 12.00, // ~ $12
                 WhoWasThere = new List<string>
                 {
+                    "Erik",
                     "Jon"
                 },
-                Date = new DateTime(2013, 10, 19, 17, 0, 0)
+                Date = new DateTime(2014, 02, 13, 18, 0, 0)
+            };
+            var tab03 = new BarTabModel
+            {
+                BarName = "Shag Lounge",
+                Items = new List<string>
+                {
+                    "Well Whiskey + Beer",
+                    "Well Whiskey + Beer"
+                },
+                TabAmount = 10.00, // ~ $12
+                WhoWasThere = new List<string>
+                {
+                    "Erik",
+                    "Jon"
+                },
+                Date = new DateTime(2014, 02, 13, 18, 0, 0)
             };
             return View();
         }
