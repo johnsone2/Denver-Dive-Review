@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Domain.BarTab>
+
+@{
+    ViewBag.Title = "Bar-tabs accrued in the process of making this Site.";
+}
+
+<h2>Tabs</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Bar</th>
+            <th>Cost</th>
+            <th>What'd we get?</th>
+            <th>Who was there?</th>
+        </tr>
+    </thead>
+    @foreach (var tab in Model)
+    {
+        <tr>
+            <td>@tab.Date</td>
+            <td>@tab.BarName</td>
+            <td>@tab.TabAmount.ToString("C")</td>
+            <td>@string.Join(", ", tab.Items)</td>
+            <td>@string.Join(", ", tab.WhoWasThere)</td>
+        </tr>
+    }
+</table>

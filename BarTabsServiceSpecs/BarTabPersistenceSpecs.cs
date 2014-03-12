@@ -37,7 +37,7 @@ namespace BarTabsServiceSpecs
             _service.Create(GetTestTab());
             _service.Create(GetTestTab());
 
-            var tabs = _service.Read().ToList();
+            var tabs = _service.GetAll().ToList();
 
             Assert.AreEqual(2, tabs.Count());
             foreach (var tab in tabs)

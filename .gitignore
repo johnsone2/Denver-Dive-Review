@@ -2,4 +2,6 @@
 */bin/*
 */obj/*
 # packages/*
-*/App_Data/**.suo
+*/App_Data/*
+*.suo
+*.DotSettings

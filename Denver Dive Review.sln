@@ -7,15 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denver Dive Review", "Denve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denver Dive Review.Tests", "Denver Dive Review.Tests\Denver Dive Review.Tests.csproj", "{71FACBE1-D7BF-4AE1-B8C6-E0916DDE62E1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7F832164-276F-490F-98A1-7164C74DC267}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DB8EFCD-2D47-4DA7-87CC-32839DF1ABE3}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -30,6 +24,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilePersistence", "FilePersistence\FilePersistence.csproj", "{F7ACDF3F-CBC1-4541-AFB1-6F422A1413B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarTabsServiceSpecs", "BarTabsServiceSpecs\BarTabsServiceSpecs.csproj", "{295F60E8-F9C0-423B-9386-D5C4754A873D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs.For.YelpApi", "Specs.For.YelpApi\Specs.For.YelpApi.csproj", "{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YelpApiWrapper", "YelpApiWrapper\YelpApiWrapper.csproj", "{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,14 +67,14 @@ Global
 		{295F60E8-F9C0-423B-9386-D5C4754A873D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{295F60E8-F9C0-423B-9386-D5C4754A873D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{295F60E8-F9C0-423B-9386-D5C4754A873D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
