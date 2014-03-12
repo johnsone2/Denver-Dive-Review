@@ -2,5 +2,5 @@
 */bin/*
 */obj/*
 *.suo
-packages/*
+# packages/*
 */App_Data/*
