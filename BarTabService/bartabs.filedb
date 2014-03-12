@@ -1,0 +1,16 @@
+﻿{
+    "Date": "2014-02-13T19:33:56.6197041-07:00",
+    "Id": 5,
+    "BarName": "Shag Lounge",
+    "TabAmount": 20,
+    "Items": [
+        "Beer + a shot",
+        "Beer + a shot",
+        "Beer + a shot",
+        "Beer"
+    ],
+    "WhoWasThere": [
+        "Erik",
+        "Jon"
+    ]
+}
