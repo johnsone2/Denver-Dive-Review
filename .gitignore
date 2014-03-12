@@ -1,6 +1,6 @@
 *.pubxml
 */bin/*
 */obj/*
-packages/*
+# packages/*
 */App_Data/*
 *.suo
