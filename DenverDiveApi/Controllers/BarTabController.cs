@@ -14,7 +14,7 @@ namespace DenverDiveApi.Controllers
         public IEnumerable<BarTab> Get()
         {
             var barTabService = new BarTabFileService();
-            return barTabService.Read();
+            return barTabService.GetAll();
         }
 
         // POST api/bartab

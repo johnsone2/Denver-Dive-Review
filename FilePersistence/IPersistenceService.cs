@@ -4,9 +4,9 @@ namespace FilePersistence
 {
     interface IPersistenceService<T>
     {
-        IEnumerable<T> Read();
+        IEnumerable<T> GetAll();
         int Create(T barTab);
-        T Read(int id);
+        T GetAll(int id);
         bool Update(T barTab);
         bool Destroy(int id);
     }

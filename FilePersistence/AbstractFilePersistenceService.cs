@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using Newtonsoft.Json;
 
 namespace FilePersistence
@@ -10,7 +9,7 @@ namespace FilePersistence
     {
         public abstract string FilePath { get; }
 
-        public IEnumerable<T> Read()
+        public IEnumerable<T> GetAll()
         {
             var items = new List<T>();
             if (!File.Exists(FilePath))
@@ -48,7 +47,7 @@ namespace FilePersistence
             return 0;
         }
 
-        public T Read(int id)
+        public T GetAll(int id)
         {
             throw new NotSupportedException("Cannot Read Individual Items For File Persisted Objects.");
         }
