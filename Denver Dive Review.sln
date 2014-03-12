@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilePersistence", "FilePers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarTabsServiceSpecs", "BarTabsServiceSpecs\BarTabsServiceSpecs.csproj", "{295F60E8-F9C0-423B-9386-D5C4754A873D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs.For.YelpApi", "Specs.For.YelpApi\Specs.For.YelpApi.csproj", "{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YelpApiWrapper", "YelpApiWrapper\YelpApiWrapper.csproj", "{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{295F60E8-F9C0-423B-9386-D5C4754A873D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{295F60E8-F9C0-423B-9386-D5C4754A873D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{295F60E8-F9C0-423B-9386-D5C4754A873D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0CA761-A9DB-4EE6-8655-9ECB01AF6A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B56B360-9F01-48BB-BFA6-EEB73F9B6E2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
