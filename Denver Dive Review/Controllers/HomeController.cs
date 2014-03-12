@@ -10,7 +10,7 @@ namespace Denver_Dive_Review.Controllers
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             var tabController = new BarTabFileService();
-            var allTabs = tabController.Read();
+            var allTabs = tabController.GetAll();
 
             var tabTotal = allTabs.Aggregate(0d, (runningTotal, tab) => runningTotal + tab.TabAmount);
 

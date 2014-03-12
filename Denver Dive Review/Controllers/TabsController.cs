@@ -11,8 +11,8 @@ namespace Denver_Dive_Review.Controllers
         public ActionResult Index()
         {
             var service = new BarTabFileService();
-            var allTabs = 
-            return View();
+            var allTabs = service.GetAll();
+            return View(allTabs);
         }
 
     }
