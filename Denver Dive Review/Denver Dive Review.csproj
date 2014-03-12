@@ -175,6 +175,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\aspnet-Denver_Dive_Review-20130727085552.mdf" />
+    <Content Include="App_Data\aspnet-Denver_Dive_Review-20130727085552_log.ldf" />
     <Content Include="Content\Core.css" />
     <Content Include="Content\rating\Sketchy.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -294,9 +296,7 @@
     <Content Include="Views\Home\Team.cshtml" />
     <Content Include="Views\Tabs\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
