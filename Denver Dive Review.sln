@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YelpApiWrapper", "YelpApiWr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbPersistence", "DbPersistence\DbPersistence.csproj", "{D16AB3EA-5A92-440C-8E99-73A2C81C5D7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbPersistenceSpecs", "DbPersistenceSpecs\DbPersistenceSpecs.csproj", "{6BB50452-9FB2-498E-A3EF-C7FA9F0DA87A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{D16AB3EA-5A92-440C-8E99-73A2C81C5D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D16AB3EA-5A92-440C-8E99-73A2C81C5D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D16AB3EA-5A92-440C-8E99-73A2C81C5D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB50452-9FB2-498E-A3EF-C7FA9F0DA87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB50452-9FB2-498E-A3EF-C7FA9F0DA87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB50452-9FB2-498E-A3EF-C7FA9F0DA87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB50452-9FB2-498E-A3EF-C7FA9F0DA87A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
